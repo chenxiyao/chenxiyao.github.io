@@ -1,0 +1,30 @@
+h1{
+	text-align:center;
+	font-weight:bold;
+	color:navy;
+	font-size:28px;
+}
+
+.first{
+	color:purple;
+}
+.second{
+	color:blue;
+}
+.third{
+	color:yellow;
+}
+.fourth{
+	color:green;
+}
+
+.bond{
+	color:red;
+	font-weight:bold;
+}
+
+h2{
+	text-align:right;
+	color:navy;
+	font-size:18px;
+}

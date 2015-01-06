@@ -1,0 +1,22 @@
+h1{
+	text-align:center;
+	font-weight:bold;
+}
+
+p{
+	color:navy;
+}
+
+body{
+	background:aliceblue;
+}
+
+a:link{
+	color:blue;
+}
+a:visited{
+	color:purple;
+}
+a:hover{
+	color:red;
+}
