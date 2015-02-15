@@ -1,0 +1,54 @@
+header {
+  margin: 0;
+  background: black;
+  text-align:center
+}
+
+footer {
+  margin: 0;
+  background: black;
+  text-align:right
+}
+
+#title {
+  text-decoration: none;
+  color: white;
+}
+
+#name {
+  text-decoration: none;
+  color: white;
+}
+
+#sidebar, #content {
+  display: inline-block;
+}
+
+#sidebar {
+  width: 10%;
+  vertical-align: top;
+  margin-top: 5px;
+}
+
+#content {
+  width: 85%;
+  vertical-align: top;
+}
+
+.col1, .col2 {
+  display: inline-block;
+}
+
+.col1 {
+  width:10%;
+  vertical-align: top;
+}
+
+.col2 {
+  width:85%;
+  vertical-align: top;
+}
+
+.basics {
+  margin-top: 5%;
+}

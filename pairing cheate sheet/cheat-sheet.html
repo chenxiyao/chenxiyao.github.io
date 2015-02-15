@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head> 
+    <link rel="stylesheet" type="text/css" href="cheat-sheet.css">
+  	<title> SQL Basics </title> 
+  </head>
+  
+  <body>
+    <header>
+      <h1 id="title">SQL Basics</h1>
+    </header>
+
+    <section id = "sidebar">
+      <ul>
+        <li><a href="#select">SELECT</a></li>
+        <li><a href="#where">WHERE</a></li>
+        <li><a href="#order">ORDER BY</a></li>
+      </ul>
+    </section>
+
+    <section id = "content">
+    <section class ='basics'>
+      <div class="col1">
+        <h1 class="term_name" id="select">SELECT</h1> 
+      </div>
+
+      <div class="col2">
+        <ol>
+          <li>Select all data for a table</li>
+          <p>
+            For example, we want to select all data for table "states". <br>
+            SELECT * FROM states;
+          </p>
+          <li>Select the columes for a table. </li>
+          <p>
+            For example, we want to select the "state_name" and "population" for table "states". <br>
+            SELECT state_name, population FROM states;
+          </p>
+        </ol>      
+      </div>
+    </section>
+
+    <section class ='basics'>
+      <div class="col1">
+        <h1 class="term_name" id="where">WHERE</h1> 
+      </div>
+
+      <div class="col2">
+        <ol>
+          <li>Select the exact data from a table</li>
+          <p>
+            For example, we want to select the 'state_name's in table "states" where "region" is 7.<br>
+          SELECT state_name FROM states<br>
+          WHERE region_id=7;
+          </p>
+        </ol> 
+      </div>
+    </section>
+
+    <section class ='basics'>
+      <div class="col1">
+        <h1 class="term_name" id="order">ORDER BY</h1> 
+      </div>
+
+      <div class="col2">
+        <ol>
+          <li>Order by Ascending</li>
+          <p>
+            For example, we want to select "state_name" and "population" for table "states" by the order of "population" ascending. <br>
+            SELECT state_name, population FROM states<br>
+            ORDER BY population;
+          </p>
+          <li>Order by Descending </li>
+          <p>
+            For example, we want to select "state_name" and "population" for table "states" by the order of "population" descending. <br>
+            SELECT state_name, population FROM states<br>
+            ORDER BY population DESC;
+          </p>
+        </ol> 
+      </div>
+    </section>
+  </section>
+
+    <footer>
+      <h2 id="name">Name: Xiyao & Tim<br> Date: 2/14/2015</h2>
+    </footer>
+  </body>
+</html>
